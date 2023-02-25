@@ -1,4 +1,4 @@
-# First Rust Program
+# First Rust Programs
 
 ![Rust logo](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)
