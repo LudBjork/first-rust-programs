@@ -4,7 +4,7 @@ fn main() {
     println!("Hello world!");
     println!("{}", math::factorial(4));
     println!("{}", math::squared(12));
-    let x:i32 = 4;
-    print!("{}", x);
+    println!("{}", math::divide(4, 2));
+    println!("{}", math::divide(1, 3));
 }
 
