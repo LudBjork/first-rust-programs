@@ -1,4 +1,3 @@
-
 pub fn factorial(x: i32) -> i32 {
     if x == 1{
         return 1;
@@ -20,15 +19,16 @@ pub fn divide(x: i64, y: i64) -> f64{
     }
 }   
 
-pub fn isPrime(num: i64) -> bool {
+pub fn is_prime(num: i64) -> bool {
     if num <= 1{
         return false;
     }
-    let maxFactor: i64 = f64::ceil(f64::sqrt(num as f64)) as i64;
-    for i in (2..maxFactor+1) {
+    let max_factor: i64 = f64::ceil(f64::sqrt(num as f64)) as i64;
+    for i in 2..max_factor+1 {
         if num % i == 0{
             return false;
         }
     }
     return true;
 }
+
